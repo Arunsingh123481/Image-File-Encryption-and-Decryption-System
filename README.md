@@ -4,21 +4,21 @@ A secure C-based command-line tool for encrypting and decrypting JPG and PNG ima
 
 Features
 
-- Strong Encryption**: Uses AES-256-GCM (Galois/Counter Mode) for authenticated encryption
-- Image Format Support**: Handles JPG/JPEG and PNG image files
-- Format Detection**: Automatically detects and validates image file formats
-- Custom File Format**: Creates encrypted files with custom signature and metadata
-- Secure Key Generation**: Uses OpenSSL's cryptographically secure random number generator
-- Authentication**: Includes GCM authentication tags to prevent tampering
-- Cross-Platform**: Works on Windows with Visual Studio Build Tools
+- Strong Encryption: Uses AES-256-GCM (Galois/Counter Mode) for authenticated encryption
+- Image Format Support: Handles JPG/JPEG and PNG image files
+- Format Detection: Automatically detects and validates image file formats
+- Custom File Format: Creates encrypted files with custom signature and metadata
+- Secure Key Generation: Uses OpenSSL's cryptographically secure random number generator
+- Authentication: Includes GCM authentication tags to prevent tampering
+- Cross-Platform: Works on Windows with Visual Studio Build Tools
 
 Security Features
 
-- AES-256-GCM Encryption**: Industry-standard authenticated encryption
-- Random IV Generation**: Each encryption uses a unique initialization vector
-- Authentication Tags**: Ensures data integrity and authenticity
-- Secure Random Keys**: Uses OpenSSL's RAND_bytes for cryptographically secure randomness
-- File Format Validation**: Verifies input files are valid images before encryption
+- AES-256-GCM Encryption: Industry-standard authenticated encryption
+- Random IV Generation: Each encryption uses a unique initialization vector
+- Authentication Tags: Ensures data integrity and authenticity
+- Secure Random Keys: Uses OpenSSL's RAND_bytes for cryptographically secure randomness
+- File Format Validation: Verifies input files are valid images before encryption
 
 ## Requirements
 
